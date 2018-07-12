@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/AudioPlayer.Abstractions/obj
+/src/.vs/AudioPlayer/v15/Server/sqlite3
+/src/AudioPlayer.Android/obj
+/src/AudioPlayer.Plugin/obj

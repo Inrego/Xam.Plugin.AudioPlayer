@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27520.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPlayer.Plugin", "AudioPlayer.Plugin\AudioPlayer.Plugin.csproj", "{A0C11B62-4EEA-4832-A4A2-634544AD4BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPlayer.Abstractions", "..\AudioPlayer.Abstractions\AudioPlayer.Abstractions.csproj", "{33381878-B143-4630-9F6C-28E02CCB5AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPlayer.Android", "AudioPlayer.Android\AudioPlayer.Android.csproj", "{728689E6-18EF-4B41-BA32-B1FA234794DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0C11B62-4EEA-4832-A4A2-634544AD4BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C11B62-4EEA-4832-A4A2-634544AD4BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C11B62-4EEA-4832-A4A2-634544AD4BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C11B62-4EEA-4832-A4A2-634544AD4BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33381878-B143-4630-9F6C-28E02CCB5AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33381878-B143-4630-9F6C-28E02CCB5AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33381878-B143-4630-9F6C-28E02CCB5AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33381878-B143-4630-9F6C-28E02CCB5AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728689E6-18EF-4B41-BA32-B1FA234794DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728689E6-18EF-4B41-BA32-B1FA234794DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728689E6-18EF-4B41-BA32-B1FA234794DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728689E6-18EF-4B41-BA32-B1FA234794DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D11613CE-1D51-4D42-AA30-144A806A9603}
+	EndGlobalSection
+EndGlobal
