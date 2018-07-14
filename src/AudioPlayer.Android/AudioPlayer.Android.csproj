@@ -69,7 +69,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AudioPlayer.Abstractions\AudioPlayer.Abstractions.csproj">
+    <ProjectReference Include="..\AudioPlayer.Abstractions\AudioPlayer.Abstractions.csproj">
       <Project>{33381878-b143-4630-9f6c-28e02ccb5ae4}</Project>
       <Name>AudioPlayer.Abstractions</Name>
     </ProjectReference>

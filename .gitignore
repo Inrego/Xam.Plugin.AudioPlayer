@@ -7,3 +7,8 @@
 /src/.vs/AudioPlayer/v15/Server/sqlite3
 /src/AudioPlayer.Android/obj
 /src/AudioPlayer.Plugin/obj
+/src/.vs/AudioPlayer
+/src/AudioPlayer.Abstractions/bin/Debug/netstandard2.0
+/src/AudioPlayer.Abstractions/obj
+/src/AudioPlayer.Android/bin/Debug
+/src/AudioPlayer.Plugin/bin/Debug/netstandard2.0

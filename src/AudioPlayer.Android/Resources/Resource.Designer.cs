@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("NewApp.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("AudioPlayer.Android.Resource", IsApplication=false)]
 
-namespace NewApp
+namespace AudioPlayer.Android
 {
 	
 	
@@ -24,12 +24,101 @@ namespace NewApp
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-		}
-		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f010014
+			public static int ad_marker_color = 2130771988;
+			
+			// aapt resource value: 0x7f01000b
+			public static int ad_marker_width = 2130771979;
+			
+			// aapt resource value: 0x7f01001c
+			public static int auto_show = 2130771996;
+			
+			// aapt resource value: 0x7f010009
+			public static int bar_height = 2130771977;
+			
+			// aapt resource value: 0x7f010012
+			public static int buffered_color = 2130771986;
+			
+			// aapt resource value: 0x7f010000
+			public static int controller_layout_id = 2130771968;
+			
+			// aapt resource value: 0x7f010018
+			public static int default_artwork = 2130771992;
+			
+			// aapt resource value: 0x7f010001
+			public static int fastforward_increment = 2130771969;
+			
+			// aapt resource value: 0x7f01001b
+			public static int hide_during_ads = 2130771995;
+			
+			// aapt resource value: 0x7f01001a
+			public static int hide_on_touch = 2130771994;
+			
+			// aapt resource value: 0x7f01001e
+			public static int keep_content_on_player_reset = 2130771998;
+			
+			// aapt resource value: 0x7f010015
+			public static int played_ad_marker_color = 2130771989;
+			
+			// aapt resource value: 0x7f010010
+			public static int played_color = 2130771984;
+			
+			// aapt resource value: 0x7f010002
+			public static int player_layout_id = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public static int repeat_toggle_modes = 2130771971;
+			
+			// aapt resource value: 0x7f010004
+			public static int resize_mode = 2130771972;
+			
+			// aapt resource value: 0x7f010005
+			public static int rewind_increment = 2130771973;
+			
+			// aapt resource value: 0x7f010011
+			public static int scrubber_color = 2130771985;
+			
+			// aapt resource value: 0x7f01000d
+			public static int scrubber_disabled_size = 2130771981;
+			
+			// aapt resource value: 0x7f01000e
+			public static int scrubber_dragged_size = 2130771982;
+			
+			// aapt resource value: 0x7f01000f
+			public static int scrubber_drawable = 2130771983;
+			
+			// aapt resource value: 0x7f01000c
+			public static int scrubber_enabled_size = 2130771980;
+			
+			// aapt resource value: 0x7f01001d
+			public static int show_buffering = 2130771997;
+			
+			// aapt resource value: 0x7f010006
+			public static int show_shuffle_button = 2130771974;
+			
+			// aapt resource value: 0x7f010007
+			public static int show_timeout = 2130771975;
+			
+			// aapt resource value: 0x7f010017
+			public static int shutter_background_color = 2130771991;
+			
+			// aapt resource value: 0x7f010008
+			public static int surface_type = 2130771976;
+			
+			// aapt resource value: 0x7f01000a
+			public static int touch_target_height = 2130771978;
+			
+			// aapt resource value: 0x7f010013
+			public static int unplayed_color = 2130771987;
+			
+			// aapt resource value: 0x7f010016
+			public static int use_artwork = 2130771990;
+			
+			// aapt resource value: 0x7f010019
+			public static int use_controller = 2130771993;
 			
 			static Attribute()
 			{
@@ -41,11 +130,236 @@ namespace NewApp
 			}
 		}
 		
-		public partial class Id
+		public partial class Color
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public static int exo_edit_mode_background_color = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public static int exo_error_message_background_color = 2131034113;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f060000
+			public static int exo_media_button_height = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public static int exo_media_button_width = 2131099649;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
+		public partial class Drawable
+		{
+			
+			// aapt resource value: 0x7f02000f
+			public static int exo_controls_fastforward = 2130837519;
+			
+			// aapt resource value: 0x7f020000
+			public static int exo_controls_fullscreen_enter = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public static int exo_controls_fullscreen_exit = 2130837505;
+			
+			// aapt resource value: 0x7f020010
+			public static int exo_controls_next = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public static int exo_controls_pause = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public static int exo_controls_play = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public static int exo_controls_previous = 2130837523;
+			
+			// aapt resource value: 0x7f020002
+			public static int exo_controls_repeat_all = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public static int exo_controls_repeat_off = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public static int exo_controls_repeat_one = 2130837508;
+			
+			// aapt resource value: 0x7f020014
+			public static int exo_controls_rewind = 2130837524;
+			
+			// aapt resource value: 0x7f020005
+			public static int exo_controls_shuffle = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public static int exo_edit_mode_logo = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public static int exo_icon_fastforward = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public static int exo_icon_next = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public static int exo_icon_pause = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public static int exo_icon_play = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public static int exo_icon_previous = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public static int exo_icon_rewind = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public static int exo_icon_stop = 2130837517;
+			
+			// aapt resource value: 0x7f020015
+			public static int exo_notification_fastforward = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public static int exo_notification_next = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public static int exo_notification_pause = 2130837527;
+			
+			// aapt resource value: 0x7f020018
+			public static int exo_notification_play = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public static int exo_notification_previous = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public static int exo_notification_rewind = 2130837530;
+			
+			// aapt resource value: 0x7f02000e
+			public static int exo_notification_small_icon = 2130837518;
+			
+			// aapt resource value: 0x7f02001b
+			public static int exo_notification_stop = 2130837531;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f070014
+			public static int all = 2131165204;
+			
+			// aapt resource value: 0x7f070000
+			public static int exo_artwork = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public static int exo_buffering = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public static int exo_content_frame = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public static int exo_controller = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public static int exo_controller_placeholder = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public static int exo_duration = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public static int exo_error_message = 2131165190;
+			
+			// aapt resource value: 0x7f070007
+			public static int exo_ffwd = 2131165191;
+			
+			// aapt resource value: 0x7f070008
+			public static int exo_next = 2131165192;
+			
+			// aapt resource value: 0x7f070009
+			public static int exo_overlay = 2131165193;
+			
+			// aapt resource value: 0x7f07000a
+			public static int exo_pause = 2131165194;
+			
+			// aapt resource value: 0x7f07000b
+			public static int exo_play = 2131165195;
+			
+			// aapt resource value: 0x7f07000c
+			public static int exo_position = 2131165196;
+			
+			// aapt resource value: 0x7f07000d
+			public static int exo_prev = 2131165197;
+			
+			// aapt resource value: 0x7f07000e
+			public static int exo_progress = 2131165198;
+			
+			// aapt resource value: 0x7f07000f
+			public static int exo_repeat_toggle = 2131165199;
+			
+			// aapt resource value: 0x7f070010
+			public static int exo_rew = 2131165200;
+			
+			// aapt resource value: 0x7f070011
+			public static int exo_shuffle = 2131165201;
+			
+			// aapt resource value: 0x7f070012
+			public static int exo_shutter = 2131165202;
+			
+			// aapt resource value: 0x7f070013
+			public static int exo_subtitles = 2131165203;
+			
+			// aapt resource value: 0x7f07001e
+			public static int exo_track_selection_view = 2131165214;
+			
+			// aapt resource value: 0x7f070017
+			public static int fill = 2131165207;
+			
+			// aapt resource value: 0x7f070018
+			public static int fit = 2131165208;
+			
+			// aapt resource value: 0x7f070019
+			public static int fixed_height = 2131165209;
+			
+			// aapt resource value: 0x7f07001a
+			public static int fixed_width = 2131165210;
+			
+			// aapt resource value: 0x7f070015
+			public static int none = 2131165205;
+			
+			// aapt resource value: 0x7f070016
+			public static int one = 2131165206;
+			
+			// aapt resource value: 0x7f07001c
+			public static int surface_view = 2131165212;
+			
+			// aapt resource value: 0x7f07001d
+			public static int texture_view = 2131165213;
+			
+			// aapt resource value: 0x7f07001b
+			public static int zoom = 2131165211;
 			
 			static Id()
 			{
@@ -61,7 +375,22 @@ namespace NewApp
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public static int exo_list_divider = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public static int exo_playback_control_view = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public static int exo_player_control_view = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public static int exo_player_view = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public static int exo_simple_player_view = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public static int exo_track_selection_dialog = 2130903045;
 			
 			static Layout()
 			{
@@ -73,30 +402,110 @@ namespace NewApp
 			}
 		}
 		
-		public partial class Mipmap
-		{
-			
-			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
-			
-			static Mipmap()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Mipmap()
-			{
-			}
-		}
-		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f040021
+			public static int app_name = 2130968609;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public static int exo_controls_fastforward_description = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public static int exo_controls_fullscreen_description = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public static int exo_controls_next_description = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public static int exo_controls_pause_description = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public static int exo_controls_play_description = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public static int exo_controls_previous_description = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public static int exo_controls_repeat_all_description = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public static int exo_controls_repeat_off_description = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public static int exo_controls_repeat_one_description = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public static int exo_controls_rewind_description = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public static int exo_controls_shuffle_description = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public static int exo_controls_stop_description = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public static int exo_download_completed = 2130968588;
+			
+			// aapt resource value: 0x7f04000d
+			public static int exo_download_description = 2130968589;
+			
+			// aapt resource value: 0x7f04000e
+			public static int exo_download_downloading = 2130968590;
+			
+			// aapt resource value: 0x7f04000f
+			public static int exo_download_failed = 2130968591;
+			
+			// aapt resource value: 0x7f040010
+			public static int exo_download_notification_channel_name = 2130968592;
+			
+			// aapt resource value: 0x7f040011
+			public static int exo_download_removing = 2130968593;
+			
+			// aapt resource value: 0x7f040012
+			public static int exo_item_list = 2130968594;
+			
+			// aapt resource value: 0x7f040013
+			public static int exo_track_bitrate = 2130968595;
+			
+			// aapt resource value: 0x7f040014
+			public static int exo_track_mono = 2130968596;
+			
+			// aapt resource value: 0x7f040015
+			public static int exo_track_resolution = 2130968597;
+			
+			// aapt resource value: 0x7f040016
+			public static int exo_track_selection_auto = 2130968598;
+			
+			// aapt resource value: 0x7f040017
+			public static int exo_track_selection_none = 2130968599;
+			
+			// aapt resource value: 0x7f040018
+			public static int exo_track_selection_title_audio = 2130968600;
+			
+			// aapt resource value: 0x7f040019
+			public static int exo_track_selection_title_text = 2130968601;
+			
+			// aapt resource value: 0x7f04001a
+			public static int exo_track_selection_title_video = 2130968602;
+			
+			// aapt resource value: 0x7f04001b
+			public static int exo_track_stereo = 2130968603;
+			
+			// aapt resource value: 0x7f04001c
+			public static int exo_track_surround = 2130968604;
+			
+			// aapt resource value: 0x7f04001d
+			public static int exo_track_surround_5_point_1 = 2130968605;
+			
+			// aapt resource value: 0x7f04001e
+			public static int exo_track_surround_7_point_1 = 2130968606;
+			
+			// aapt resource value: 0x7f04001f
+			public static int exo_track_unknown = 2130968607;
+			
+			// aapt resource value: 0x7f040020
+			public static int hello = 2130968608;
 			
 			static String()
 			{
@@ -104,6 +513,216 @@ namespace NewApp
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f080000
+			public static int ExoMediaButton = 2131230720;
+			
+			// aapt resource value: 0x7f080001
+			public static int ExoMediaButton_FastForward = 2131230721;
+			
+			// aapt resource value: 0x7f080002
+			public static int ExoMediaButton_Next = 2131230722;
+			
+			// aapt resource value: 0x7f080003
+			public static int ExoMediaButton_Pause = 2131230723;
+			
+			// aapt resource value: 0x7f080004
+			public static int ExoMediaButton_Play = 2131230724;
+			
+			// aapt resource value: 0x7f080005
+			public static int ExoMediaButton_Previous = 2131230725;
+			
+			// aapt resource value: 0x7f080006
+			public static int ExoMediaButton_Rewind = 2131230726;
+			
+			// aapt resource value: 0x7f080007
+			public static int ExoMediaButton_Shuffle = 2131230727;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] AspectRatioFrameLayout = new int[] {
+					2130771972};
+			
+			// aapt resource value: 0
+			public static int AspectRatioFrameLayout_resize_mode = 0;
+			
+			public static int[] DefaultTimeBar = new int[] {
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985,
+					2130771986,
+					2130771987,
+					2130771988,
+					2130771989};
+			
+			// aapt resource value: 11
+			public static int DefaultTimeBar_ad_marker_color = 11;
+			
+			// aapt resource value: 2
+			public static int DefaultTimeBar_ad_marker_width = 2;
+			
+			// aapt resource value: 0
+			public static int DefaultTimeBar_bar_height = 0;
+			
+			// aapt resource value: 9
+			public static int DefaultTimeBar_buffered_color = 9;
+			
+			// aapt resource value: 12
+			public static int DefaultTimeBar_played_ad_marker_color = 12;
+			
+			// aapt resource value: 7
+			public static int DefaultTimeBar_played_color = 7;
+			
+			// aapt resource value: 8
+			public static int DefaultTimeBar_scrubber_color = 8;
+			
+			// aapt resource value: 4
+			public static int DefaultTimeBar_scrubber_disabled_size = 4;
+			
+			// aapt resource value: 5
+			public static int DefaultTimeBar_scrubber_dragged_size = 5;
+			
+			// aapt resource value: 6
+			public static int DefaultTimeBar_scrubber_drawable = 6;
+			
+			// aapt resource value: 3
+			public static int DefaultTimeBar_scrubber_enabled_size = 3;
+			
+			// aapt resource value: 1
+			public static int DefaultTimeBar_touch_target_height = 1;
+			
+			// aapt resource value: 10
+			public static int DefaultTimeBar_unplayed_color = 10;
+			
+			public static int[] PlayerControlView = new int[] {
+					2130771968,
+					2130771969,
+					2130771971,
+					2130771973,
+					2130771974,
+					2130771975};
+			
+			// aapt resource value: 0
+			public static int PlayerControlView_controller_layout_id = 0;
+			
+			// aapt resource value: 1
+			public static int PlayerControlView_fastforward_increment = 1;
+			
+			// aapt resource value: 2
+			public static int PlayerControlView_repeat_toggle_modes = 2;
+			
+			// aapt resource value: 3
+			public static int PlayerControlView_rewind_increment = 3;
+			
+			// aapt resource value: 4
+			public static int PlayerControlView_show_shuffle_button = 4;
+			
+			// aapt resource value: 5
+			public static int PlayerControlView_show_timeout = 5;
+			
+			public static int[] PlayerView = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771990,
+					2130771991,
+					2130771992,
+					2130771993,
+					2130771994,
+					2130771995,
+					2130771996,
+					2130771997,
+					2130771998};
+			
+			// aapt resource value: 15
+			public static int PlayerView_auto_show = 15;
+			
+			// aapt resource value: 0
+			public static int PlayerView_controller_layout_id = 0;
+			
+			// aapt resource value: 11
+			public static int PlayerView_default_artwork = 11;
+			
+			// aapt resource value: 1
+			public static int PlayerView_fastforward_increment = 1;
+			
+			// aapt resource value: 14
+			public static int PlayerView_hide_during_ads = 14;
+			
+			// aapt resource value: 13
+			public static int PlayerView_hide_on_touch = 13;
+			
+			// aapt resource value: 17
+			public static int PlayerView_keep_content_on_player_reset = 17;
+			
+			// aapt resource value: 2
+			public static int PlayerView_player_layout_id = 2;
+			
+			// aapt resource value: 3
+			public static int PlayerView_repeat_toggle_modes = 3;
+			
+			// aapt resource value: 4
+			public static int PlayerView_resize_mode = 4;
+			
+			// aapt resource value: 5
+			public static int PlayerView_rewind_increment = 5;
+			
+			// aapt resource value: 16
+			public static int PlayerView_show_buffering = 16;
+			
+			// aapt resource value: 6
+			public static int PlayerView_show_shuffle_button = 6;
+			
+			// aapt resource value: 7
+			public static int PlayerView_show_timeout = 7;
+			
+			// aapt resource value: 10
+			public static int PlayerView_shutter_background_color = 10;
+			
+			// aapt resource value: 8
+			public static int PlayerView_surface_type = 8;
+			
+			// aapt resource value: 9
+			public static int PlayerView_use_artwork = 9;
+			
+			// aapt resource value: 12
+			public static int PlayerView_use_controller = 12;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
